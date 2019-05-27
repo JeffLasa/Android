@@ -2,6 +2,7 @@ package br.com.digitalhouse.meuprimeiroapp;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
@@ -27,6 +28,9 @@ public class MainActivity extends AppCompatActivity {
         TextView resposta = findViewById(R.id.resposta_calculo_imc_id);
         resposta.setText("O seu IMC é "+calculo);
 
+        Log.i(MainActivity.class.toString(),"O botão foiapertado");
+
+        Toast.makeText(this,"eu",INPUT_METHOD_SERVICE);
         
 
 
